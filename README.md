@@ -22,7 +22,16 @@ comparing MVC frameworks (Rails, Laravel) · Git &amp; GitHub
 **Pulse** — a small feedback &amp; roadmap app (teams post feature requests, users upvote and
 comment), built to learn full-stack web development beyond coursework. It's live on Render:
 
-🔗 **Live demo: https://pulse-web-lvhx.onrender.com** — log in with `demo@pulse.dev` / `demo12345`
+**Live demo: https://pulse-web-lvhx.onrender.com** — log in with `demo@pulse.dev` / `demo12345`
+
+```mermaid
+flowchart LR
+    user([User]) --> web["pulse-web<br/>React + Vite"]
+    web -->|"REST + token auth"| api["pulse-api<br/>Django + DRF"]
+    api --> db[(SQLite)]
+    api -. "same core, ported<br/>to learn each stack" .-> rails["pulse-rails<br/>Ruby on Rails"]
+    api -. "same core, ported<br/>to learn each stack" .-> laravel["pulse-laravel<br/>Laravel"]
+```
 
 - **[pulse-api](https://github.com/Jorgepele/pulse-api)** — the Django + REST Framework
   backend: multi-tenant data modelling, a token-authenticated REST API, and tests.
@@ -56,4 +65,4 @@ cada repo). Abierto a prácticas y a mi primera oportunidad en el sector.
 
 ---
 
-📫 Reach me at **jogpgc@gmail.com**
+Reach me at **jogpgc@gmail.com**
