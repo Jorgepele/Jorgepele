@@ -32,7 +32,8 @@ comment), built to learn full-stack web development beyond coursework. It's live
 To learn how the same ideas map across frameworks, I ported Pulse's core to two more:
 
 - **[pulse-rails](https://github.com/Jorgepele/pulse-rails)** — the same domain in **Ruby on
-  Rails** (Active Record, Sanctum-style token auth), as a way into Rails' conventions.
+  Rails** (Active Record, token auth via an `Authorization: Token` header), as a way into Rails'
+  conventions.
 - **[pulse-laravel](https://github.com/Jorgepele/pulse-laravel)** — and in **Laravel** (Eloquent,
   Sanctum), to compare it with Django and Rails.
 
