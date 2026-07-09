@@ -24,6 +24,8 @@ comment), built to learn full-stack web development beyond coursework. It's live
 
 **Live demo: https://pulse-web-lvhx.onrender.com** — log in with `demo@pulse.dev` / `demo12345`
 
+![The Pulse feedback board: feature requests with upvotes, status filters and comments](pulse-screenshot.png)
+
 ```mermaid
 flowchart LR
     user([User]) --> web["pulse-web<br/>React + Vite"]
